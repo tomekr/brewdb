@@ -4,11 +4,11 @@ This application was generated with the "rails_apps_composer":https://github.com
 
 h2. Getting Started
 
-1. Clone this repository
+1. Clone this repository and get the application.yml file from Tomek if you haven't already.
 2. Run @bundle install@ (this will install a bunch of gems and might take a while if you don't have the latest rails already installed)
 3. Run @rake db:migrate@
 4. Start the server by running @rails server@
-5. There will be a default admin user created. You can log in with this user using the credentials found in application.yml (if you don't have this file, ask Tomek for it) credentials.
+5. There will be a default admin user created. You can log in with this user using the credentials found in application.yml credentials.
 
 h2. Ruby on Rails
 
