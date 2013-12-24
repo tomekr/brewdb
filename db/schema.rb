@@ -11,7 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131206230008) do
+ActiveRecord::Schema.define(version: 20131224191701) do
+
+  create_table "recipes", force: true do |t|
+    t.string   "name"
+    t.decimal  "version"
+    t.string   "type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "roles", force: true do |t|
     t.string   "name"
